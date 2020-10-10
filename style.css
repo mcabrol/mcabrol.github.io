@@ -1,0 +1,112 @@
+body, html {
+	font-family: 'Ramabhadra', sans-serif;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.dark {
+	color: white;
+	background-color: black;
+}
+
+.dark a {
+	color: white;
+}
+
+.dark a:hover {
+	color: darkgrey;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: lightgrey;
+	text-decoration: none;
+}
+
+.logo {
+
+}
+
+.code {
+	font-family: monospace;
+	font-size: 14px;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	padding: 5px;
+	padding-left: 15px;
+	width: 100%;
+	height: 300px;
+	line-height: 24px;
+	overflow: auto;
+}
+
+.dark .code {
+	background-color: #323232;
+	color: white;
+}
+
+.code p {
+	margin: 0;
+}
+
+.display-none {
+	display: none;
+}
+
+.bdr {
+	border-top: solid 1px black;
+}
+
+.dark .bdr {
+	border-top: solid 1px white;
+}
+
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.list {
+	font-size: 58px;
+	line-height: 1;
+}
+
+.responsive {
+	display: block;
+}
+
+.responsive-invert {
+	display: none;
+}
+.table-padding {
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+@media (max-width: 1006px) {
+
+	.table-padding {
+		padding: 0;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	.responsive {
+		display: none;
+	}
+
+	.responsive-invert {
+		display: block;
+	}
+
+	.list {
+		font-size: 48px;
+		line-height: 1;
+	}
+
+}
