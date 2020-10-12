@@ -12,15 +12,31 @@
     <title>Github resume</title>
 </head>
 	<body>
-		<div class="fixed-bottom container-fluid h-100">
-		  <div class="row h-100 justify-content-center align-items-center">
-			    <div class="col-md-8 text-center">
-					<div id="content"></div>
-					<div class="navbar text-center">
-						<h5 class="m-0">® 2020</h5>
-						<h5 class="m-0">MCABROL.GITHUB.COM</h5>
-					</div>
-			  	</div>
+
+		<div id="contact" class="fixed-top p-0 container-fluid h-100 text-black">
+		 	<div class="row h-100 justify-content-center align-items-center">
+				  <div onClick="sendEmail()" class="col-md-8 text-center">
+				  		<h3 class="text-uppercase name">Martin Cabrol</h3>
+				  </div>
+			</div>
+		</div>
+
+		<div id="main" class="fixed-top p-0 container-fluid h-100">
+			  <div class="row h-100 justify-content-center align-items-center">
+				    <div id="key" onClick="sendEmail()" class="col-md-8 text-center">
+						<div id="content" class="p-4"></div>
+				  	</div>
+			</div>
+		</div>
+
+
+
+
+
+		<div class="fixed-bottom">
+			<div class="navbar text-center p-0">
+				<p class="p-2"><a href="#">GITHUB</a> <a href="#">LINKEDIN</a></p>
+				<p class="p-2"><span id="clock"></span></p>
 			</div>
 		</div>
 
