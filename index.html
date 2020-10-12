@@ -6,100 +6,33 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-	<link href="style.css" rel="stylesheet">
+	<link href="profile.css" rel="stylesheet">
 
 
     <title>Github resume</title>
 </head>
-	<body class="light">
-		<div id="loading" class="fixed-bottom container h-100">
+	<body>
+		<div class="fixed-bottom container-fluid h-100">
 		  <div class="row h-100 justify-content-center align-items-center">
-		    <div class="col-12 text-center">
-				<div id="spinner" class="spinner-border" role="status">
-	  				<span class="sr-only">Loading...</span>
-				</div>
-				<div id="errorText"></div>
-		  	</div>
-		  </div>
-		</div>
-
-		<div id="content" class="container-fluid p-0 display-none">
-
-
-
-			<div id="console_window" class="collapse row p-3 m-0">
-				<div id="console" class="code p-4"></div>
-			</div>
-
-			<div class="row p-0 pl-3 pr-3 pt-1 m-0">
-				<div class="col-2 m-0 p-0 responsive">
-					<a href="#"><p class="m-0" id="log"></p></a>
-				</div>
-				<div class="col-2 m-0 p-0 responsive">
-					<a href="#"><p class="m-0">Project</p></a>
-				</div>
-				<div class="col-2 m-0 p-0 responsive">
-					<a data-toggle="collapse" href="#info" role="button" aria-expanded="false" aria-controls="info"><p class="m-0">Info</p></a>
-				</div>
-				<div class="col-2 m-0 p-0 responsive">
-					<a href="#"><p class="m-0">Contact</p></a>
-				</div>
-			</div>
-			<div class="p-0 pl-3 pr-3 pt-1 m-0 responsive-invert">
-				<a href="#">
-					<p class="m-0 p-0" id="log2">
-						<img src="bars-solid.svg" class="float-right" width="50px">
-					</p>
-				</a>
-			</div>
-
-			<div id="table" class="p-0 pl-3 pr-3 pt-0">
-				<div id="info" class="collapse bdr row m-0 p-0">
-					<div id="info_window" class="col-md-9 m-0 p-0">
+			    <div class="col-md-8 text-center">
+					<div id="content"></div>
+					<div class="navbar text-center">
+						<h5 class="m-0">® 2020</h5>
+						<h5 class="m-0">MCABROL.GITHUB.COM</h5>
 					</div>
-				</div>
-			</div>
-
-
-
-
-			<!-- <div class="p-3">
-				<input id="search" type="text" placeholder="Login"/>
-				<button type="button" onclick="search_api()">ok</button>
-			</div> -->
-
-
-			<!-- <p class="m-0 p-0 pb-2 pl-3 pr-3">Raw code</p>
-			<div class="row p-3 m-0">
-				<div id="raw" class="code p-4"></div>
-			</div> -->
-
-
-		</div>
-
-		<div class="fixed-bottom">
-			<div class="text-right">
-				<div class="m-0 p-0 pb-2 pl-3 pr-3 pt-3">
-					<button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#console_window" aria-expanded="false" aria-controls="console_window">
-	    				Console
-	  				</button>
-					<button class="btn btn-dark ml-2" type="button" onclick="invert()">
-	    				Mode
-	  				</button>
-				</div>
+			  	</div>
 			</div>
 		</div>
 
 		<!-- External -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 		<!-- Sources -->
-		<script src="request.js"></script>
-		<script src="parse.js"></script>
-		<script src="tools.js"></script>
-		<script src="display.js"></script>
-		<script src="index.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+		<script src="profile.js"></script>
 
 	</body>
 </html>
