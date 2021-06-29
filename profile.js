@@ -14,7 +14,7 @@ function updateTime(k) {
 
 function sendEmail()
 {
-    window.location = "mailto:martin.cabrol@free.fr";
+    window.location = "mailto:contact@mcabrol.com";
 }
 
 $( document ).ready(function() {
